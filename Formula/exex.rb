@@ -1,28 +1,28 @@
 class Exex < Formula
   desc "Terminal UI for exploring ELF, Mach-O and PE binaries"
   homepage "https://github.com/rabarbra/exex"
-  version "0.1.9"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/rabarbra/exex/releases/download/v#{version}/exex-v#{version}-darwin-arm64.tar.gz"
-      sha256 "dbc47c164e1e9cdd39a9bc02260930a89896e447b994322efe74e9c2467ee4a3"
+      sha256 "d342dbe514edfa8d2a67a291f20444f713965b2b65559a33418f884f8491597c"
     end
     on_intel do
       url "https://github.com/rabarbra/exex/releases/download/v#{version}/exex-v#{version}-darwin-amd64.tar.gz"
-      sha256 "64fa67eabb78412b132038527ff8b39c1fcb7605158882af4d286f3692baf39f"
+      sha256 "d8c8b1343251d07dd484c900d2ccfa7c07e9dd0ec21b176d3030083e52b5fbf0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/rabarbra/exex/releases/download/v#{version}/exex-v#{version}-linux-arm64.tar.gz"
-      sha256 "a4291be19e9f3b5dcdb804ccf3f53c59f48ef7a78ff9659387dd58c1031365a7"
+      sha256 "26fdab1087e2d96ed8de6ce883e911015fd776e5b00c4f565e4dd78237a93331"
     end
     on_intel do
       url "https://github.com/rabarbra/exex/releases/download/v#{version}/exex-v#{version}-linux-amd64.tar.gz"
-      sha256 "c19eb61cb1df53e8ace14daab74e376d1c3ef1760a741d993681aabe715cdcb5"
+      sha256 "9208dc4f0da1d01bd6eadd928dcfd182ad35015d01451fb312c8d785a52bb7b5"
     end
   end
 
