@@ -1,30 +1,30 @@
 class Ttysvg < Formula
   desc "Record terminal sessions as SVG animations"
   homepage "https://github.com/rabarbra/ttysvg"
-  version "0.0.5"
+  version "0.0.6"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/rabarbra/ttysvg/releases/download/v#{version}/ttysvg_v#{version}_macos_arm64.tar.gz"
-      sha256 "d82ba041b25d95ad7c70ee9f7f011f3f7344ecf52d58452443e0641149636970"
+      sha256 "627a96032c676183f06bdeaff03fbb44f8346d57a475d5cd8a512fa0d758949b"
     end
 
     on_intel do
       url "https://github.com/rabarbra/ttysvg/releases/download/v#{version}/ttysvg_v#{version}_macos_x86_64.tar.gz"
-      sha256 "d9262314ddbd0f2301732c7cfbe9561e5aa3e74b117e11c1fc4672bf4dd5187c"
+      sha256 "c8d11cdfcecdd677ccf355be2b0ba60722ff1f58512905399ff5e02499c5b258"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/rabarbra/ttysvg/releases/download/v#{version}/ttysvg_v#{version}_linux_arm64.tar.gz"
-      sha256 "e56affbae2e01ca90bae7525e69ee88da8690d6750fd793d8edab341274afd2c"
+      sha256 "668b188aa3f831bbd52e75efe759dc68255625aa7d696f58b7a91ece902e7024"
     end
 
     on_intel do
       url "https://github.com/rabarbra/ttysvg/releases/download/v#{version}/ttysvg_v#{version}_linux_x86_64.tar.gz"
-      sha256 "bff8e3dac95cbe355bd05949bb75621289a2b596d3ffe0896793e80628c89352"
+      sha256 "ca217739c232303cbd9c5e12f080ffc5dd9bb51096040cc50d5b9b12f49e34fc"
     end
   end
 
